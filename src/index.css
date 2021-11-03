@@ -62,11 +62,11 @@ li {
   font-size: 140px;
   color: white;
   font-weight: 500;
-  margin-top: 100px !important;
+  margin-right: 30px;
 }
 
 .weather-info {
-  margin-top: -35px;
+  margin-top: -20px;
 }
 .weather-city {
   font-size: 64px;
@@ -74,14 +74,13 @@ li {
 }
 .weather-date {
   font-size: 18px;
-  line-height: 0px;
-  text-align: end;
-  margin-left: 30px;
+  line-height: 20px;
 }
 .weather-icon {
   display: flex;
   flex-direction: column;
-  margin-top: 25px;
+  margin-top: -20px;
+  margin-left: 30px;
   align-items: center;
 }
 .weather-status {
@@ -215,16 +214,21 @@ li {
   }
   .weather {
     flex-direction: column;
+    text-align: center;
   }
   .weather-city {
     font-size: 40px;
   }
   .weather-degree {
     font-size: 80px;
+    margin-right: 0;
   }
   .weather-date {
     line-height: 30px;
     text-align: center;
+  }
+  .weather-icon {
+    margin-left: 0;
   }
 
   /* Sidebar component */
@@ -270,7 +274,7 @@ li {
   }
 
   .weather-degree {
-    font-size: 80px;
+    font-size: 90px;
   }
   .weather-date {
     line-height: 30px;

@@ -53,10 +53,10 @@ function Main() {
       </a>
       {typeof weather.name != "undefined" ? (
         <div className="weather">
-          <div className="weather-info">
             <span className="weather-degree">
               {Math.ceil(weather.main.temp)}°
             </span>
+          <div className="weather-info">
             <span className="weather-city">{weather.name}</span>
             <div className="weather-date">{getDate(new Date())}</div>
           </div>
